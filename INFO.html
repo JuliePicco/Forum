@@ -1,0 +1,82 @@
+
+<!-- ! Choses à faire : -->
+
+à faire : 
+- verrouiller un topic
+- seul ceux qui on créée le post ou l admin peuvent supprimer
+- seul ceux qui on créée le post peuvent modifier
+- quand connecté, ne pas avoir sur la page d accueil inscription et connexion
+
+
+fonctionnalité supp : 
+- comment faire un sorte que la personne qui créée un topic, ai un message en même temps en relation avec le titre du topic !
+- séparer les topics de l admin et ceux des user (topic obligatoire, comme les regles du forum etc....)
+- Lorsqu'un user est supprimé, faire en sorte que ce soit remplacé par une valeur par defaut (anonyme/undefinded)
+
+
+
+
+
+
+
+
+
+<!-- todo INFO et DEFINITIONS -->
+
+<!-- filter_input ou  htmlSpecialChars()-->
+filter_input() permet de rajouter des arguements par rapport aux htmlSpecialChars()
+
+<!-- regex (Regular Expression)-->
+Permet par exemple de definir si un mdp doit contenir une Maj, un nombre de caractère recommander etc...
+
+<!-- ? différente possibilité -->
+^: anchored to beginning of string
+\S*: any set of characters
+(?=\S{8,}): of at least length 8
+(?=\S*[a-z]): containing at least one lowercase letter
+(?=\S*[A-Z]): and at least one uppercase letter
+(?=\S*[\d]): and at least one number
+$: anchored to the end of the string
+To include special characters, just add (?=\S*[\W]), which is non-word characters.
+
+
+<!-- Définition hash -->
+
+La fonction de hachage ont plusieurs objectifs : 
+
+Elles servent à rendre plus rapide l'identification des données : le calcul d'empreinte d'une donnée représente un temps négligeable au regard d'une comparaison complète (plus longue à réaliser).
+Elles permettent de stocker un espace virtuel très grand, mais peu rempli, de données dans un espace physique forcément limité où l'accès aux données est direct, comme s'il s'agissait d'un tableau. En ce sens, le hachage s'oppose aux listes chaînées et aux arbres de recherche.
+
+https://www.php.net/manual/fr/function.password-hash.php
+
+<!-- Faille CSRF -->
+
+https://www.leblogduhacker.fr/faille-csrf-explications-contre-mesures/
+
+
+<!-- Comment uploader une image en php -->
+https://espritweb.fr/comment-uploader-une-image-en-php/
+
+
+
+
+<!-- todo LIEN INTERESSANT -->
+
+<!-- * Owasp definion -->
+https://fr.wikipedia.org/wiki/Open_Web_Application_Security_Project
+
+<!-- * Owasp Top 10 Web Application Security Risks -->
+https://owasp.org/www-project-top-ten/
+
+<!-- * Securité paswword -->
+https://cheatsheetseries.owasp.org/cheatsheets/Authentication_Cheat_Sheet.html
+
+<!-- * creation d'un login/loggout -->
+https://www.youtube.com/watch?v=gCo6JqGMi30
+
+
+<!-- todo IDEES -->
+http://etutorials.org/Programming/PHP+MySQL+and+Apache+in+24+hours/Part+III+Getting+Involved+with+the+Code/Hour+14.+Creating+a+Simple+Discussion+Forum/Creating+a+Discussion+Forum/
+
+https://dev.to/shantanu_jana/how-to-preview-image-before-uploading-in-javascript-1f6g
+   
